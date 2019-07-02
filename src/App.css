@@ -1,0 +1,23 @@
+.App {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.app-header {
+  height: 50px;
+  width: 100%;
+  background-color: #283F3B; 
+}
+
+.page-segment {
+  min-height: 100vh;
+}
+
+.center.aligned {
+	text-align: center;
+}
+
+.vertical-scrolling-content {
+	max-height: 300px;
+	overflow-y: auto;
+}
