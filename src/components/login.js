@@ -58,7 +58,7 @@ class Login extends React.Component {
       return (
         <div>
           <div className='ui center aligned'>
-            <img src='./logo.png' alt='site logo'></img>
+            <img src='./logo.png' alt='site logo' width='300px'></img>
           </div>
           <div className='ui center aligned header'>
             we organise alomost everything

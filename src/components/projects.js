@@ -95,7 +95,6 @@ class Projects extends React.Component {
 
   render() {
     var projects = this.state.projects.map((project, id) => {
-      var avatar = 'suitcase icon';
       var updateLink = '/projects/'+project.id+'/update';
       var viewLink = '/projects/'+project.id+'/view';
       var status = 'Ongoing';
@@ -104,16 +103,13 @@ class Projects extends React.Component {
       }else if (project.status === 'CMP'){
         status = 'Completed';
       }
-      if (project.avatar){
-        avatar = project.avatar;
-      }
       return (
         <div class='item'>
           <div class='right floated content'>
             <Link to={updateLink}><div class='ui button'>Update</div></Link>
             <div class='ui button' onClick={() => this.setState({'showDeleteConfirmation': true, 'currentProject': project.id})}>Delete</div>
           </div>
-          <img class='ui avatar image' src={avatar} alt='avatar'></img>
+          <i class="large suitcase middle aligned icon"></i>
           <div class='content'>
             <div class='header'><Link to={viewLink}>{project.name}</Link> ({status})</div>
             <div class='description'>{project.startDate} To {project.endDate}</div>

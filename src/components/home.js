@@ -56,7 +56,7 @@ class Home extends React.Component {
       return (
         <div className='home'>
           <div className='ui center aligned '>
-            <img src='./logo.png' alt='site logo'></img>
+            <img src='./logo.png' alt='site logo' width='300px'></img>
           </div>
           
           <div className='ui clearing divider'></div>
@@ -82,10 +82,10 @@ class Home extends React.Component {
       return (
         <div className='ui center aligned home'>
           <div>
-            <img src='./logo.png' alt='site logo'></img>
+            <img src='./logo.png' alt='site logo' width='300px'></img>
           </div>
           <div className='ui header'>
-            we organise alomost everything
+            Organises almost everything
           </div>
           <div className='ui hidden divider'></div>
           <Link to='/signup'><div className='ui button'>Sign Up</div></Link>

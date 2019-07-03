@@ -183,7 +183,7 @@ class ViewProject extends React.Component {
         <div className='Project'>
           <div class='ui hidden divider'></div>  
           <h2 class='ui center aligned icon header'>
-            <img class='ui avatar image' src={this.state.project.avatar} alt='avatar'></img>
+            <i class='circular suitcase icon'></i>
             <div className='ui hidden divider'></div>
             {this.state.project.name}
           </h2>

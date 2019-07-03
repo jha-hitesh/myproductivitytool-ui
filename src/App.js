@@ -12,7 +12,7 @@ class App extends React.Component {
     super(props);
     var backend = 'http://localhost:8000';
     if (window.location.hostname !== 'localhost'){
-      backend = 'https://organiser1000.herokuapp.com';
+      backend = 'https://myproductivitytool.herokuapp.com';
     }
     config.set({
       'backend': backend
