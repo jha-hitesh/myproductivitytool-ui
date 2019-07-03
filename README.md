@@ -7,6 +7,11 @@ The UI for My productivity Tool.
 Clone this repo on your local system. 
 install nodejs
 
+Install required packages
+```
+npm install
+```
+
 ### Running
 
 To run the server
