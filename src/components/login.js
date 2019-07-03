@@ -60,9 +60,6 @@ class Login extends React.Component {
           <div className='ui center aligned'>
             <img src='./logo.png' alt='site logo' width='300px'></img>
           </div>
-          <div className='ui center aligned header'>
-            we organise alomost everything
-          </div>
           <div className="ui two column centered grid">
             <div className="column">
               <form className='ui form'>
