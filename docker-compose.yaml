@@ -1,0 +1,20 @@
+version: "3.4"
+services:
+  myproductivitytoolui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    hostname: myproductivitytoolui
+    container_name: myproductivitytoolui
+    platform: linux/amd64
+    networks:
+      - productivitynetwork
+    volumes:
+      - ./src:/srv/src
+    tty: true
+    ports:
+      - "3000:3000"
+
+networks:
+  productivitynetwork:
+    name: productivitynetwork
